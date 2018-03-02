@@ -1,2 +1,2 @@
 # creeknet
-creekNat is a robust and simple environmental data collection facility base around on the Raspberry Pi.
+creekNat is a robust and simple environmental data collection facility based around on the Raspberry Pi.
