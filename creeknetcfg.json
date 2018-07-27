@@ -1,0 +1,69 @@
+{
+     "sensors": [
+        {
+            "id":"0417a21030ff",
+            "description":"WaterBottom",
+            "xfactor":"1",
+            "yoffset":"0",
+            "exportToMazi":"hotsensor",
+            "colour":"Red/Blue",
+            "enabled":"True"
+        },
+        {
+            "id":"0117c011efff",
+            "description":"WaterTop",
+            "xfactor":"1",
+            "yoffset":"0",
+            "exportToMazi":"coldsensor",
+            "colour":"Red/Green",
+            "enabled":"True"
+        },
+        {
+            "id":"0417c31e5aff",
+            "description":"AirLow",
+            "xfactor":"1",
+            "yoffset":"0",
+            "exportToMazi":"False",
+            "colour":"Yellow/Green",
+            "enabled":"True"
+        },
+        {
+            "id":"0317621918ff",
+            "description":"AirHigh",
+            "xfactor":"1",
+            "yoffset":"0",
+            "exportToMazi":"False",
+            "colour":"Yellow/Blue",
+            "enabled":"True"
+        },
+        {
+            "id":"031762199fff",
+            "description":"Mud",
+            "xfactor":"1",
+            "yoffset":"0",
+            "exportToMazi":"False",
+            "colour":"unknown",
+            "enabled":"True"
+        },
+        {
+            "id":"0417c31836ff",
+            "description":"Stones",
+            "xfactor":"1",
+            "yoffset":"0",
+            "exportToMazi":"False",
+            "colour":"unknown",
+            "enabled":"True"
+        }
+    ],
+    "parameters": {
+        "delay":"60", 
+        "gcuid":"TEST-RIG",
+        "title":"Pauls House",
+        "lat":"-0.456",
+        "long":"41.45346",
+	"maziServerAddress":"192.168.1.118",
+	"traceLevel":"Warning"
+    }
+}
+
+
