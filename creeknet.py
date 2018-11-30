@@ -32,7 +32,7 @@ sensorArray = W1TemperatureSensorArray()
 logger = ValueLogger()
 
 # Create a tracing file for logging messages
-tf = CreekTracer()
+tf = CreekTracer('/home/pi/development/1wtemp/trace/creeknettrace.log')
 
 # And go round indefinitly taking readings
 count = 0
