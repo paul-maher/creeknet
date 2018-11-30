@@ -90,7 +90,7 @@ def createLogger():
         handler = logging.FileHandler('/home/pi/development/1wtemp/trace/creekupload.log')
 
         # create a logging format
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+	formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt = '%Y-%m-%d %H:%M:%S')
         handler.setFormatter(formatter)
 
         # add the handlers to the logger
