@@ -1,21 +1,20 @@
 import logging
 
-# Class to append entries to Creeknet tracing file
+# Generic logging class to append entries to Creeknet tracing files. Also used by associated utilities.
 class CreekTracer:
         
     # Initilise the logger
-    def __init__(_self):
+    def __init__(_self, logFileName):
         
         # Set file and logging options
         _self.logger = logging.getLogger("CREEKNET")
         _self.logger.setLevel(logging.WARNING)
 
         # create a file handler
-        handler = logging.FileHandler('/home/pi/development/1wtemp/trace/creeknettrace.log')
-        #handler.setLevel(logging.INFO)
+        handler = logging.FileHandler(logFileName)
 
         # create a logging format
-	formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt = '%Y-%m-%d %H:%M:%S')
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt = '%Y-%m-%d %H:%M:%S')
         handler.setFormatter(formatter)
 
         # add the handlers to the logger
