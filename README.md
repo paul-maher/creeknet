@@ -1,5 +1,5 @@
 # creeknet
-creekNat is a robust and simple environmental data collection facility based around on the Raspberry Pi. 
+creeknet is a robust and simple environmental data collection facility based around on the Raspberry Pi. 
 
 It also contains a utlity to monitor the IP address (both intennal and external) and if it change it will add the new address to a changelog and upload it to Google Drive
 
